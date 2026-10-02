@@ -771,11 +771,11 @@ ui <- fluidPage(
   tags$div(class = "site-header",
            tags$h1("Continuous Integration and Software Quality in Scientific Software: A Large-Scale Empirical Analysis of GitHub Repositories"),
            tags$div(class = "subtitle",
-                    tags$a(href = "https://doi.org/10.XXXX/XXXXXXX", target = "_blank", "DOI: 10.XXXX/XXXXXXX"),
-                    tags$span(" \u2003|\u2003 ", class = "sep"),
-                    tags$a(href = "https://paper-link.example.com", target = "_blank",
-                           icon("file-text"), "Read the paper"),
-                    tags$span(" \u2003|\u2003 ", class = "sep"),
+                    #tags$a(href = "https://doi.org/10.XXXX/XXXXXXX", target = "_blank", "DOI: 10.XXXX/XXXXXXX"),
+                    #tags$span(" \u2003|\u2003 ", class = "sep"),
+                    #tags$a(href = "https://paper-link.example.com", target = "_blank",
+                    #       icon("file-text"), "Read the paper"),
+                    #tags$span(" \u2003|\u2003 ", class = "sep"),
                     tags$a(href = "https://jakobilab.org", target = "_blank",
                            icon("globe"), "jakobilab.org")
            )
@@ -972,9 +972,9 @@ ui <- fluidPage(
                     tags$a(href = "https://jakobilab.org/", target = "_blank", rel = "noopener", "Jakobi Lab")
            ),
            tags$div(class = "footer-links",
-                    tags$a(href = "https://github.com/jakobilab/ci_shiny_reporter", target = "_blank", rel = "noopener", "Source code"),
-                    tags$a(href = "https://github.com/jakobilab/integrationStudy", target = "_blank", rel = "noopener", "Continuous Integration Study 2026"),
-                    tags$a(href = "https://phoenixmed.arizona.edu/tcrc", target = "_blank", rel = "noopener", "TCRC")
+                    tags$a(href = "https://github.com/jakobilab/rqi-shiny", target = "_blank", rel = "noopener", "Source code"),
+                    tags$a(href = "https://github.com/jakobilab/rqi-study", target = "_blank", rel = "noopener", "CI and Quality in Scientific Software Study 2026"),
+                    tags$a(href = "https://phoenixmed.arizona.edu/tcrc", target = "_blank", rel = "noopener", "Translational Cardiovascular Research Center (TCRC)")
            )
   )
 )
