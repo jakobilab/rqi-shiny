@@ -1,9 +1,16 @@
-This is the r shiny tool for the study "Continuous Integration in Bioinformatics Software: Enhancing Scientific Software Through Industry Standards" Compton Mellon et al. 2026.
+# Repository Quality Index (RQI) — Interactive Data Explorer
 
-This is an interactive tool that lets users explore the data, tables, and figures within the study. 
+This repository contains the interactive Shiny application for the manuscript:
 
-run with 
+> **Continuous Integration in Bioinformatics Software: Enhancing Scientific Software Through Industry Standards**  
 
-```
-Rscript shinyReportInt.R
-```
+This web application allows users to interactively explore the underlying datasets, summary tables, and high-resolution figures presented in the study.
+
+---
+
+## Quick Start
+
+To launch the Shiny app locally, run the following command in your terminal:
+
+```bash
+Rscript app.R
