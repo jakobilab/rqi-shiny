@@ -771,11 +771,11 @@ ui <- fluidPage(
   tags$div(class = "site-header",
            tags$h1("Continuous Integration and Software Quality in Scientific Software: A Large-Scale Empirical Analysis of GitHub Repositories"),
            tags$div(class = "subtitle",
-                    #tags$a(href = "https://doi.org/10.XXXX/XXXXXXX", target = "_blank", "DOI: 10.XXXX/XXXXXXX"),
-                    #tags$span(" \u2003|\u2003 ", class = "sep"),
-                    #tags$a(href = "https://paper-link.example.com", target = "_blank",
-                    #       icon("file-text"), "Read the paper"),
-                    #tags$span(" \u2003|\u2003 ", class = "sep"),
+                    tags$a(href = "https://doi.org/10.64898/2026.10.01.755028", target = "_blank", "DOI: 10.XXXX/XXXXXXX"),
+                    tags$span(" \u2003|\u2003 ", class = "sep"),
+                    tags$a(href = "https://paper-link.example.com", target = "_blank",
+                           icon("file-text"), "Read the paper"),
+                    tags$span(" \u2003|\u2003 ", class = "sep"),
                     tags$a(href = "https://jakobilab.org", target = "_blank",
                            icon("globe"), "jakobilab.org")
            )
