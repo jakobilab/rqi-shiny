@@ -973,7 +973,7 @@ ui <- fluidPage(
            ),
            tags$div(class = "footer-links",
                     tags$a(href = "https://github.com/jakobilab/rqi-shiny", target = "_blank", rel = "noopener", "Source code"),
-                    tags$a(href = "https://github.com/jakobilab/rqi-study", target = "_blank", rel = "noopener", "CI and Quality in Scientific Software Study 2026"),
+                    tags$a(href = "https://doi.org/10.64898/2026.10.01.755028", target = "_blank", rel = "noopener", "CI and Quality in Scientific Software Study 2026"),
                     tags$a(href = "https://phoenixmed.arizona.edu/tcrc", target = "_blank", rel = "noopener", "Translational Cardiovascular Research Center (TCRC)")
            )
   )
